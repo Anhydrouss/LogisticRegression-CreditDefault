@@ -1,5 +1,5 @@
-# CreditDelinq
-Predicting payment delinquency and ultimately credit default using supervised machine learning (logistic regression). Features include debt segmentation, account status, hardship, disconnection, and previous delinquency to predict likelihood of debt write-off
+# Credit Default
+Predicting credit default using supervised machine learning (logistic regression). Features include debt segmentation, account status, hardship, disconnection, and previous delinquency to predict likelihood of debt write-off
 
 What is the probability (%) of a binary outcome of debt write-off (bad=1, good=0)?
 The level of confidence/probability could be used to guide pricing and collection path at the point of sale or after onboarding. 
