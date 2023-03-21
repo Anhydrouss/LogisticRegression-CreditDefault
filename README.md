@@ -22,8 +22,7 @@ Training and Compliance:
 All employees involved in the customer onboarding process must be trained on this policy and the use of logistic regression for credit risk assessment. Compliance with this policy is mandatory, and non-compliance may result in disciplinary action.
 
 ## Point of Sale:
-a. Implement a thorough customer onboarding process, which includes collecting detailed information about customers, such as their employment status, credit history, and other relevant financial information.
-b. Use the logistic regression model to assess the credit risk of potential customers during the onboarding process. Set a threshold for risk tolerance and deny service to high-risk customers or require additional guarantees (e.g., security deposits, co-signers, or advance payments).
+Implement a thorough customer onboarding process, which includes collecting detailed information about customers, such as their employment status, credit history, and other relevant financial information. Use the logistic regression model to assess the credit risk of potential customers during the onboarding process. Set a threshold for risk tolerance and deny service to high-risk customers or require additional guarantees (e.g., security deposits, co-signers, or advance payments).
 
 Risk Assessment and Thresholds:
 
