@@ -28,10 +28,12 @@ Risk Assessment and Thresholds:
 
 a. Logistic Regression Model: 
 The logistic regression model will incorporate relevant predictors of credit risk, including disconnection history, hardship history, payment delinquency history, and other credit bureau data. The model will generate a probability score between 0 and 1, representing the likelihood of a customer defaulting.
+
 b. Risk Tolerance Thresholds:
   i. Low-risk customers: Probability score between 0 and 0.1
   ii. Medium-risk customers: Probability score between 0.1 and 0.25
   iii. High-risk customers: Probability score above 0.25
+
 c. Acceptance Criteria:
   i. The company aims to maintain an annual bad debt write-off within a tolerance of 3-5%.
   ii. To achieve this, we will set acceptance criteria based on the logistic regression model's results and the risk tolerance thresholds:
@@ -41,11 +43,14 @@ c. Acceptance Criteria:
 3. High-risk customers: Accept only if the customer can provide a significant security deposit (e.g., three months' estimated billing) or a financially stable guarantor.
 
 Credit Rating Score Thresholds:
+
 a. In addition to the logistic regression model, the company will consider credit rating scores provided by credit bureaus during the customer onboarding process. The credit rating score is an industry-standard assessment of an individual's creditworthiness, with scores typically ranging from 300 to 850.
+
 b. The company will use the following credit rating score thresholds as an additional criterion for assessing customers' credit risk:
   i. Good credit rating: Score of 670 or above
   ii. Fair credit rating: Score between 580 and 669
   iii. Poor credit rating: Score below 580
+
 c. Acceptance Criteria Based on Credit Rating Score:
   i. Good credit rating: Accept without additional requirements.
   ii. Fair credit rating: If the customer's logistic regression probability score falls within the medium-risk range (0.1 to 0.25), accept with additional     requirements, such as a security deposit equivalent to two months' estimated billing or a co-signer with good credit.
