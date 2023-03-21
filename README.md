@@ -21,20 +21,20 @@ The purpose of this policy is to establish a comprehensive framework for assessi
 Training and Compliance:
 All employees involved in the customer onboarding process must be trained on this policy and the use of logistic regression for credit risk assessment. Compliance with this policy is mandatory, and non-compliance may result in disciplinary action.
 
-## Point of Sale:
+# Point of Sale:
 Implement a thorough customer onboarding process, which includes collecting detailed information about customers, such as their employment status, credit history, and other relevant financial information. Use the logistic regression model to assess the credit risk of potential customers during the onboarding process. Set a threshold for risk tolerance and deny service to high-risk customers or require additional guarantees (e.g., security deposits, co-signers, or advance payments).
 
-Risk Assessment and Thresholds:
+## Risk Assessment and Thresholds:
 
-a. Logistic Regression Model: 
+A. Logistic Regression Model: 
 The logistic regression model will incorporate relevant predictors of credit risk, including disconnection history, hardship history, payment delinquency history, and other credit bureau data. The model will generate a probability score between 0 and 1, representing the likelihood of a customer defaulting.
 
-b. Risk Tolerance Thresholds:
+B. Risk Tolerance Thresholds:
   i. Low-risk customers: Probability score between 0 and 0.1
   ii. Medium-risk customers: Probability score between 0.1 and 0.25
   iii. High-risk customers: Probability score above 0.25
 
-c. Acceptance Criteria:
+C. Acceptance Criteria:
   i. The company aims to maintain an annual bad debt write-off within a tolerance of 3-5%.
   ii. To achieve this, we will set acceptance criteria based on the logistic regression model's results and the risk tolerance thresholds:
 
@@ -42,58 +42,59 @@ c. Acceptance Criteria:
 2. Medium-risk customers: Accept with additional requirements, such as a security deposit equivalent to two months' estimated billing or a co-signer with good credit.
 3. High-risk customers: Accept only if the customer can provide a significant security deposit (e.g., three months' estimated billing) or a financially stable guarantor.
 
-Credit Rating Score Thresholds:
+## Credit Rating Score Thresholds:
 
-a. In addition to the logistic regression model, the company will consider credit rating scores provided by credit bureaus during the customer onboarding process. The credit rating score is an industry-standard assessment of an individual's creditworthiness, with scores typically ranging from 300 to 850.
+* In addition to the logistic regression model, the company will consider credit rating scores provided by credit bureaus during the customer onboarding process. The credit rating score is an industry-standard assessment of an individual's creditworthiness, with scores typically ranging from 300 to 850.
 
-b. The company will use the following credit rating score thresholds as an additional criterion for assessing customers' credit risk:
+* The company will use the following credit rating score thresholds as an additional criterion for assessing customers' credit risk:
   i. Good credit rating: Score of 670 or above
   ii. Fair credit rating: Score between 580 and 669
   iii. Poor credit rating: Score below 580
 
-c. Acceptance Criteria Based on Credit Rating Score:
+* Acceptance Criteria Based on Credit Rating Score:
   i. Good credit rating: Accept without additional requirements.
   ii. Fair credit rating: If the customer's logistic regression probability score falls within the medium-risk range (0.1 to 0.25), accept with additional     requirements, such as a security deposit equivalent to two months' estimated billing or a co-signer with good credit.
   iii. Poor credit rating: If the customer's logistic regression probability score falls within the high-risk range (above 0.25), accept only if the customer can provide a significant security deposit (e.g., three months' estimated billing) or a financially stable guarantor.
 
 
 # Billing and Payment:
-a. Segment customers based on their risk levels (low, medium, and high) using the logistic regression results.
 
-b. Implement customized billing and payment plans according to the risk levels:
-i. For low-risk customers, offer standard billing and payment options, with flexibility in payment terms.
-ii. For medium-risk customers, offer customized payment plans with closer monitoring and more frequent follow-ups.
-iii. For high-risk customers, require more frequent payments (e.g., bi-weekly or weekly) and closely monitor their accounts for potential delinquency.
+* Segment customers based on their risk levels (low, medium, and high) using the logistic regression results.
 
-c. Regularly update the logistic regression model with new customer information and adjust the risk levels accordingly.
+* Implement customized billing and payment plans according to the risk levels:
+  1. For low-risk customers, offer standard billing and payment options, with flexibility in payment terms.
+  2. For medium-risk customers, offer customized payment plans with closer monitoring and more frequent follow-ups.
+  3. For high-risk customers, require more frequent payments (e.g., bi-weekly or weekly) and closely monitor their accounts for potential delinquency.
+
+* Regularly update the logistic regression model with new customer information and adjust the risk levels accordingly.
 
 # Collections and Recovery:
 
-a. Monitor customer accounts closely for any signs of financial distress or delinquency.
+* Monitor customer accounts closely for any signs of financial distress or delinquency.
 
-b. Implement a proactive collections strategy, contacting customers with overdue payments in a timely manner.
+* Implement a proactive collections strategy, contacting customers with overdue payments in a timely manner.
 
-c. For customers with a higher risk of default, prioritize contacting them and offer additional support, such as financial counseling or alternative payment arrangements.
+* For customers with a higher risk of default, prioritize contacting them and offer additional support, such as financial counseling or alternative payment arrangements.
 
-d. Continuously monitor the effectiveness of the collections strategy and refine it based on customer feedback and performance metrics.
+* Continuously monitor the effectiveness of the collections strategy and refine it based on customer feedback and performance metrics.
 
 # Hardship and Disconnection Management:
 
-a. Develop policies for customers experiencing financial hardship, such as offering payment extensions, deferred payments, or reduced payment plans.
+* Develop policies for customers experiencing financial hardship, such as offering payment extensions, deferred payments, or reduced payment plans.
 
-b. Closely monitor the accounts of customers on hardship programs and adjust their risk levels accordingly.
+* Closely monitor the accounts of customers on hardship programs and adjust their risk levels accordingly.
 
-c. For customers who have been disconnected due to non-payment, require proof of financial stability or a deposit before reconnection.
+* For customers who have been disconnected due to non-payment, require proof of financial stability or a deposit before reconnection.
 
-d. Continuously review and refine hardship and disconnection policies to ensure they effectively mitigate bad debt write-offs while supporting customers in need.
+* Continuously review and refine hardship and disconnection policies to ensure they effectively mitigate bad debt write-offs while supporting customers in need.
 
 # Data Analysis and Continuous Improvement:
 
-a. Regularly analyze the logistic regression results to identify trends and patterns in customer payment behavior.
+* Regularly analyze the logistic regression results to identify trends and patterns in customer payment behavior.
 
-b. Use these insights to refine the risk management strategy, such as identifying additional predictors of default or adjusting the thresholds for risk levels.
+* Use these insights to refine the risk management strategy, such as identifying additional predictors of default or adjusting the thresholds for risk levels.
 
-c. Continuously evaluate the effectiveness of the implemented processes, rules, and policies and make adjustments as needed.
+* Continuously evaluate the effectiveness of the implemented processes, rules, and policies and make adjustments as needed.
 By following this comprehensive approach, I would be able to manage the risk of default and bad debt write-offs throughout the customer lifecycle, ensuring the financial stability of the energy company.
 
 
