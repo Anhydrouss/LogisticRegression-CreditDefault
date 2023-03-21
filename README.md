@@ -19,8 +19,7 @@ The level of confidence and the probability of default could be used to guide pr
 The purpose of this policy is to establish a comprehensive framework for assessing and managing credit risk during the customer onboarding process, utilizing logistic regression as a tool to support decision-making. This policy aims to minimize the risk of default and maintain the company's annual bad debt write-off within a tolerance of 3-5%. The company is committed to maintaining a rigorous and data-driven credit risk assessment and management process during customer onboarding. We will utilize logistic regression to evaluate potential customers' credit risk, setting specific thresholds to ensure our risk tolerance is maintained. 
 
 Training and Compliance:
-a. All employees involved in the customer onboarding process must be trained on this policy and the use of logistic regression for credit risk assessment.
-b. Compliance with this policy is mandatory, and non-compliance may result in disciplinary action.
+All employees involved in the customer onboarding process must be trained on this policy and the use of logistic regression for credit risk assessment. Compliance with this policy is mandatory, and non-compliance may result in disciplinary action.
 
 ## Point of Sale:
 a. Implement a thorough customer onboarding process, which includes collecting detailed information about customers, such as their employment status, credit history, and other relevant financial information.
