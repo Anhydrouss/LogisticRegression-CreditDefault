@@ -7,9 +7,10 @@ The level of confidence and the probability of default could be used to guide pr
 For example, divide results into deciles of 10 and depending on the business appetite for risk, profitability margin and market share, a line can be drawn to limit the acquisition of new customers. Other risk mitigating processes could be implemented at the point of sale such as direct debit and security deposit. Whereas after billing, high risk customers should be assigned to a shortened treatment/collection cycle with tailored communication and assigning the top collection agent to engage and negotiate for payment.  
 
 Risk management and debt collection in a nutshell:  
-1) filter - limit the aquisition of known high risk profiles
+1) filter - limit the acquisition of known high risk profiles
 2) accuracy - contract, onboard and bill accurately, first time 
-3) classify - continously monitoring and reclassifying risk with updated data 
+3) classify - continuously monitoring and reclassifying risk with updated data 
 4) engage - persistent/effective communication and skip-tracing 
 5) strong negotiation tactics will secure payment
 6) stem the bleed (disconnection, threat of credit default listing, legal proceedings and settlements)
+
