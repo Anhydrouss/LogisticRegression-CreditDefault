@@ -59,27 +59,40 @@ c. Acceptance Criteria Based on Credit Rating Score:
 
 # Billing and Payment:
 a. Segment customers based on their risk levels (low, medium, and high) using the logistic regression results.
+
 b. Implement customized billing and payment plans according to the risk levels:
 i. For low-risk customers, offer standard billing and payment options, with flexibility in payment terms.
 ii. For medium-risk customers, offer customized payment plans with closer monitoring and more frequent follow-ups.
 iii. For high-risk customers, require more frequent payments (e.g., bi-weekly or weekly) and closely monitor their accounts for potential delinquency.
+
 c. Regularly update the logistic regression model with new customer information and adjust the risk levels accordingly.
 
 # Collections and Recovery:
+
 a. Monitor customer accounts closely for any signs of financial distress or delinquency.
+
 b. Implement a proactive collections strategy, contacting customers with overdue payments in a timely manner.
+
 c. For customers with a higher risk of default, prioritize contacting them and offer additional support, such as financial counseling or alternative payment arrangements.
+
 d. Continuously monitor the effectiveness of the collections strategy and refine it based on customer feedback and performance metrics.
 
 # Hardship and Disconnection Management:
+
 a. Develop policies for customers experiencing financial hardship, such as offering payment extensions, deferred payments, or reduced payment plans.
+
 b. Closely monitor the accounts of customers on hardship programs and adjust their risk levels accordingly.
+
 c. For customers who have been disconnected due to non-payment, require proof of financial stability or a deposit before reconnection.
+
 d. Continuously review and refine hardship and disconnection policies to ensure they effectively mitigate bad debt write-offs while supporting customers in need.
 
 # Data Analysis and Continuous Improvement:
+
 a. Regularly analyze the logistic regression results to identify trends and patterns in customer payment behavior.
+
 b. Use these insights to refine the risk management strategy, such as identifying additional predictors of default or adjusting the thresholds for risk levels.
+
 c. Continuously evaluate the effectiveness of the implemented processes, rules, and policies and make adjustments as needed.
 By following this comprehensive approach, I would be able to manage the risk of default and bad debt write-offs throughout the customer lifecycle, ensuring the financial stability of the energy company.
 
