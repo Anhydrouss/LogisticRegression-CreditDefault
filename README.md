@@ -16,14 +16,13 @@ The level of confidence and the probability of default could be used to guide pr
 
 # Credit Risk Assessment and Management Policy Using Logistic Regression
 
-The purpose of this policy is to establish a comprehensive framework for assessing and managing credit risk during the customer onboarding process, utilizing logistic regression as a tool to support decision-making. This policy aims to minimize the risk of default and maintain the company's annual bad debt write-off within a tolerance of 3-5%. The company is committed to maintaining a rigorous and data-driven credit risk assessment and management process during customer onboarding. We will utilize logistic regression to evaluate potential customers' credit risk, setting specific thresholds to ensure our risk tolerance is maintained. Monitoring and Review:
-a. The company will regularly review and update the logistic regression model to ensure its accuracy and effectiveness in predicting credit risk.
-b. We will closely monitor the annual bad debt write-off rate and adjust the risk tolerance thresholds and acceptance criteria as necessary to maintain our target range of 3-5%.
+The purpose of this policy is to establish a comprehensive framework for assessing and managing credit risk during the customer onboarding process, utilizing logistic regression as a tool to support decision-making. This policy aims to minimize the risk of default and maintain the company's annual bad debt write-off within a tolerance of 3-5%. The company is committed to maintaining a rigorous and data-driven credit risk assessment and management process during customer onboarding. We will utilize logistic regression to evaluate potential customers' credit risk, setting specific thresholds to ensure our risk tolerance is maintained. 
+
 Training and Compliance:
 a. All employees involved in the customer onboarding process must be trained on this policy and the use of logistic regression for credit risk assessment.
 b. Compliance with this policy is mandatory, and non-compliance may result in disciplinary action.
 
-Point of Sale:
+## Point of Sale:
 a. Implement a thorough customer onboarding process, which includes collecting detailed information about customers, such as their employment status, credit history, and other relevant financial information.
 b. Use the logistic regression model to assess the credit risk of potential customers during the onboarding process. Set a threshold for risk tolerance and deny service to high-risk customers or require additional guarantees (e.g., security deposits, co-signers, or advance payments).
 
@@ -52,7 +51,7 @@ c. Acceptance Criteria Based on Credit Rating Score:
   i. Good credit rating: Accept without additional requirements.
   ii. Fair credit rating: If the customer's logistic regression probability score falls within the medium-risk range (0.1 to 0.25), accept with additional     requirements, such as a security deposit equivalent to two months' estimated billing or a co-signer with good credit.
   iii. Poor credit rating: If the customer's logistic regression probability score falls within the high-risk range (above 0.25), accept only if the customer can provide a significant security deposit (e.g., three months' estimated billing) or a financially stable guarantor.
-d. The company will use both the logistic regression probability score and the credit rating score to make a comprehensive assessment of a potential customer's credit risk during the onboarding process. This approach will ensure that we are effectively managing our risk exposure and maintaining our annual bad debt write-off within the target range of 3-5%.
+
 
 # Billing and Payment:
 a. Segment customers based on their risk levels (low, medium, and high) using the logistic regression results.
