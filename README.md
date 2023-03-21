@@ -26,7 +26,8 @@ Implement a thorough customer onboarding process, which includes collecting deta
 
 Risk Assessment and Thresholds:
 
-a. Logistic Regression Model: The logistic regression model will incorporate relevant predictors of credit risk, including disconnection history, hardship history, payment delinquency history, and other credit bureau data. The model will generate a probability score between 0 and 1, representing the likelihood of a customer defaulting.
+a. Logistic Regression Model: 
+The logistic regression model will incorporate relevant predictors of credit risk, including disconnection history, hardship history, payment delinquency history, and other credit bureau data. The model will generate a probability score between 0 and 1, representing the likelihood of a customer defaulting.
 b. Risk Tolerance Thresholds:
   i. Low-risk customers: Probability score between 0 and 0.1
   ii. Medium-risk customers: Probability score between 0.1 and 0.25
