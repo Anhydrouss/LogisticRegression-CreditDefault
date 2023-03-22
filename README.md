@@ -5,7 +5,7 @@ Predicting credit default using supervised machine learning (logistic regression
 
 The level of confidence and the probability of default could be used to guide pricing at the point of sale and determine debt collection path after onboarding/billing. For example, divide results into deciles of 10 and depending on the business appetite for risk, profitability margin and market share, a line can be drawn to limit the acquisition of new customers. Other risk mitigating processes could be implemented at the point of sale such as direct debit and security deposit. Whereas after billing, high risk customers should be assigned to a shortened treatment/collection cycle with tailored communication and assigning the top collection agent to engage and negotiate payment.  
 
-# Risk management and Debt Collection in a Nutshell: 
+# Risk Management and Debt Collection in a Nutshell: 
 
 1) Gatekeeping - limiting and managing the acquisition of high risk customers
 2) Accuracy - getting the contracting, onboarding and billing right the first time and every time 
