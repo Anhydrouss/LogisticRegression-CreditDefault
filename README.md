@@ -40,6 +40,7 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * Acceptance Criteria:
 
   i. The company aims to maintain an annual bad debt write-off within a tolerance of 3-5%.
+  
   ii. To achieve this, we will set acceptance criteria based on the logistic regression model's results and the risk tolerance thresholds:
 
 1. Low-risk customers: Accept without additional requirements.
@@ -53,13 +54,17 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * The company will use the following credit rating score thresholds as an additional criterion for assessing customers' credit risk:
 
   i. Good credit rating: Score of 670 or above
+  
   ii. Fair credit rating: Score between 580 and 669
+  
   iii. Poor credit rating: Score below 580
 
 * Acceptance Criteria Based on Credit Rating Score:
 
   i. Good credit rating: Accept without additional requirements.
+  
   ii. Fair credit rating: If the customer's logistic regression probability score falls within the medium-risk range (0.1 to 0.25), accept with additional     requirements, such as a security deposit equivalent to two months' estimated billing or a co-signer with good credit.
+  
   iii. Poor credit rating: If the customer's logistic regression probability score falls within the high-risk range (above 0.25), accept only if the customer can provide a significant security deposit (e.g., three months' estimated billing) or a financially stable guarantor.
 
 
@@ -70,7 +75,9 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * Implement customized billing and payment plans according to the risk levels:
 
   i. For low-risk customers, offer standard billing and payment options, with flexibility in payment terms.
+  
   ii. For medium-risk customers, offer customized payment plans with closer monitoring and more frequent follow-ups.
+  
   iii. For high-risk customers, require more frequent payments (e.g., bi-weekly or weekly) and closely monitor their accounts for potential delinquency.
 
 * Regularly update the logistic regression model with new customer information and adjust the risk levels accordingly.
