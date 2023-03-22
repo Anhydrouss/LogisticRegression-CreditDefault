@@ -30,11 +30,13 @@ Implement a thorough customer onboarding process, which includes collecting deta
 The logistic regression model will incorporate relevant predictors of credit risk, including disconnection history, hardship history, payment delinquency history, and other credit bureau data. The model will generate a probability score between 0 and 1, representing the likelihood of a customer defaulting.
 
 * Risk Tolerance Thresholds:
+
   i. Low-risk customers: Probability score between 0 and 0.1
   ii. Medium-risk customers: Probability score between 0.1 and 0.25
   iii. High-risk customers: Probability score above 0.25
 
 * Acceptance Criteria:
+
   i. The company aims to maintain an annual bad debt write-off within a tolerance of 3-5%.
   ii. To achieve this, we will set acceptance criteria based on the logistic regression model's results and the risk tolerance thresholds:
 
@@ -47,11 +49,13 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * In addition to the logistic regression model, the company will consider credit rating scores provided by credit bureaus during the customer onboarding process. The credit rating score is an industry-standard assessment of an individual's creditworthiness, with scores typically ranging from 300 to 850.
 
 * The company will use the following credit rating score thresholds as an additional criterion for assessing customers' credit risk:
+
   i. Good credit rating: Score of 670 or above
   ii. Fair credit rating: Score between 580 and 669
   iii. Poor credit rating: Score below 580
 
 * Acceptance Criteria Based on Credit Rating Score:
+
   i. Good credit rating: Accept without additional requirements.
   ii. Fair credit rating: If the customer's logistic regression probability score falls within the medium-risk range (0.1 to 0.25), accept with additional     requirements, such as a security deposit equivalent to two months' estimated billing or a co-signer with good credit.
   iii. Poor credit rating: If the customer's logistic regression probability score falls within the high-risk range (above 0.25), accept only if the customer can provide a significant security deposit (e.g., three months' estimated billing) or a financially stable guarantor.
@@ -62,6 +66,7 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * Segment customers based on their risk levels (low, medium, and high) using the logistic regression results.
 
 * Implement customized billing and payment plans according to the risk levels:
+
   i. For low-risk customers, offer standard billing and payment options, with flexibility in payment terms.
   ii. For medium-risk customers, offer customized payment plans with closer monitoring and more frequent follow-ups.
   iii. For high-risk customers, require more frequent payments (e.g., bi-weekly or weekly) and closely monitor their accounts for potential delinquency.
