@@ -32,7 +32,9 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * Risk Tolerance Thresholds:
 
   i. Low-risk customers: Probability score between 0 and 0.1
+  
   ii. Medium-risk customers: Probability score between 0.1 and 0.25
+  
   iii. High-risk customers: Probability score above 0.25
 
 * Acceptance Criteria:
