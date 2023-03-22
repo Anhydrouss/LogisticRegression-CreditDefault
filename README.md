@@ -7,12 +7,12 @@ The level of confidence and the probability of default could be used to guide pr
 
 # Risk management and Debt Collection in a Nutshell: 
 
-1) filter - limit the acquisition of known high risk profiles
-2) accuracy - contract, onboard and bill accurately, first time 
-3) classify - continuously monitoring and reclassifying risk with updated data 
-4) engage - persistent/effective communication and skip-tracing 
-5) strong negotiation tactics to secure immediate payment
-6) stem the bleed (disconnection, threat of credit default listing, legal proceedings and settlements)
+1) Filter - limit the acquisition of known high risk profiles
+2) Accuracy - contract, onboard and bill accurately, first time 
+3) Classify - continuously monitoring and reclassifying risk with updated data 
+4) Engage - persistent/effective communication and skip-tracing 
+5) Strong negotiation tactics to secure immediate payment
+6) Stem the bleed (disconnection, threat of credit default listing, legal proceedings and settlements)
 
 # Credit Risk Assessment and Management Policy Using Logistic Regression
 
