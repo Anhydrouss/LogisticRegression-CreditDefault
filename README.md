@@ -111,7 +111,7 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * Continuously evaluate the effectiveness of the implemented processes, rules, and policies and make adjustments as needed.
 By following this comprehensive approach, I would be able to manage the risk of default and bad debt write-offs throughout the customer lifecycle, ensuring the financial stability of the energy company.
 
-# Future Recommendations :
+# Future Recommendation:
 
 * There is an opportunity to engineer more features with domain knowledge. Leverage domain expertise to assess the significance of a variable. Some variables might be critical even if their statistical significance is not high. Here are some examples of how simple or complex we could engineer new features.
 
