@@ -111,5 +111,21 @@ The logistic regression model will incorporate relevant predictors of credit ris
 * Continuously evaluate the effectiveness of the implemented processes, rules, and policies and make adjustments as needed.
 By following this comprehensive approach, I would be able to manage the risk of default and bad debt write-offs throughout the customer lifecycle, ensuring the financial stability of the energy company.
 
+# Future Recommendations :
+
+* There is an opportunity to engineer more features with domain knowledge. Leverage domain expertise to assess the significance of a variable. Some variables might be critical even if their statistical significance is not high. Here are some examples of how simple or complex we could engineer new features.
+
+1) Hardship signals within the 1st 3 months of onboarding, however we could take this even further upstream and set up gatekeeping at the point of sales to not accept applications known to be on hardship with another energy company or bank. Either direct acknowledgement by the customer or by a third party data capture. (If hardship signals appear within the first 3 months from start-date).
+2) A sudden change of payment behaviour, from good to bad. i.e., An early payer suddenly appearing on the disconnection list. These customer's will be more incline to revert back if payment tardiness was a recent change. (If sum of overdue is less than 3 days within a date range and the most recent invoice is overdue by 7 days)
+3) Combine banking data with energy profile to form new features. There are meaningful data relating to credit card applications, delinquency, etc. The only consideration here is that 3rd parties will typically charge a fee for access to this data after onboarding, which could might not be a cost effective endeavour considering a) this data will change over time and, b) this data will be required on a monthly basis. (If count of credit card application in the last 3 month is greater than 2 and invoice is overdue)
+4) Regular partial payments after due date without an official payment-plan in place. This tardiness of payment behaviour but may not indicative of hardship. (If overdue invoice(s) are partially cleared and there is no active payment-plan). 
+5) Count of failure to pay after extension in the last 6 months. These customer's are at least engaging, there is a very good opportunity to assign the best collector to control the outcome of these accounts using different negotiation tactics. (If extention is granted and is currently overdue after the extention end date).
+6) Response type on various collection campaigns. Each campaign requires a data footprint in order to identify at a later stage. Customer payment behaviour could be reinforced by learnt behaviour based on how the company interacts with customer's.
+
+   
+
+   
+
+
 
 
